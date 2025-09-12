@@ -9,6 +9,7 @@ import banner3 from "../../assets/Food.png"; // Placeholder
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { FaChevronLeft } from "react-icons/fa";
 
 const slides = [
   {
@@ -81,7 +82,7 @@ const Banner = () => {
                   </span>
                 </p>
                 <p className="text-sm text-gray-500">{slide.description}</p>
-                <Link to={'#'} className="pointer-coarse">
+                <Link to={"#"} className="pointer-coarse">
                   <button className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition duration-300">
                     Shop Now →
                   </button>
@@ -95,4 +96,15 @@ const Banner = () => {
   );
 };
 
+
+
 export default Banner;
+
+
+{/* <button className="custom-prev absolute  top-1/2 -translate-y-1/2 z-10 bg-white border border-green-500 p-2 rounded-full text-green-600 hover:bg-green-100 shadow">
+  <FaChevronLeft />
+</button>;
+
+<button className="custom-next absolute -right-6 top-1/2 -translate-y-1/2 z-10 bg-white border border-green-500 p-2 rounded-full text-green-600 hover:bg-green-100 shadow">
+  <FaChevronRight />
+</button>; */}
