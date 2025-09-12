@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Trusted = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-16 py-20 flex flex-col lg:flex-row gap-10 items-center bg-white">
+    <div className="px-4 md:px-8 lg:px-16 py-12 md:py-16 flex flex-col lg:flex-row gap-10 items-center bg-white">
       {/* Left Images */}
       <div className="flex flex-col md:flex-row gap-4 w-full h-full  justify-center">
         <img
@@ -22,7 +22,7 @@ const Trusted = () => {
       </div>
 
       {/* Right Text */}
-      <div className="w-full  space-y-6 text-center lg:text-left pt-20">
+      <div className="w-full  space-y-6 text-center md:text-left md:pt-10 lg:pt-20">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 leading-snug">
           100% Trusted <br className="hidden md:block" /> Organic Food Store
         </h2>
