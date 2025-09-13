@@ -4,7 +4,7 @@ import FeaturesSection from './FeaturesSection';
 import DeliverySection from './DeliverySection';
 import TeamMate from './TeamMate';
 import ClientTestimonial from './ClientTestimonial';
-import NewsletterSubscribe from './NewsletterSubscribe ';
+import NewsletterSubscribe from '../../Component/NewsletterSubscribe ';
 
 const About = () => {
     return (
