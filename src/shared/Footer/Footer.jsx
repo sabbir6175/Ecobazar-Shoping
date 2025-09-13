@@ -16,7 +16,7 @@ import footerBg from "../../assets/FooterBg.png";
 export default function Footer() {
   return (
     <footer
-      className="w-full bg-[#111111] text-gray-300 relative overflow-hidden mt-8 bg-no-repeat bg-cover  "
+      className="w-full bg-[#111111] text-gray-300 relative overflow-hidden  bg-no-repeat bg-cover  "
   style={{ backgroundImage: `url(${footerBg})` }}
     >
       {/* Main Footer Wrapper */}

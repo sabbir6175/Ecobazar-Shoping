@@ -12,7 +12,7 @@ const NewsletterSubscribe = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left side: Title and subtitle */}
         <div className="flex flex-col text-left max-w-md">
-          <h3 className="font-bold text-sm mb-1">Subscribe our Newsletter</h3>
+          <h3 className="font-bold text-base md:text-xl lg:text-3xl mb-3">Subscribe our Newsletter</h3>
           <p className="text-xs text-gray-600">
             Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
             Phasellus imperdiet elit eu massa.

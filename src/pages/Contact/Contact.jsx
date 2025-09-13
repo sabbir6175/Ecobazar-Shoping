@@ -1,4 +1,4 @@
-import NewsletterSubscribe from "../../Component/NewsletterSubscribe ";
+import NewsletterSubscribe from "../../Components/NewsletterSubscribe ";
 import ContactFrom from "./ContactFrom";
 import GoogleMap from "./GoogleMap";
 
