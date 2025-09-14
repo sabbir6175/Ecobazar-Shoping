@@ -138,7 +138,7 @@ import farmer4 from "../../assets/about/Image (7).png";
 
 const FeaturesSection = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-10 items-center px-5 md:px-20 py-10 bg-base-100">
+    <div className="grid md:grid-cols-2 gap-10 items-center   py-10 bg-base-100">
       
       {/* Left Image Area */}
       <div className="relative w-full h-full flex items-center justify-center">

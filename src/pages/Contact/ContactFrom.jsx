@@ -3,8 +3,8 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const ContactFrom = () => {
   return (
-    <section className="bg-white py-12 px-5 md:px-20">
-      <div className="max-w-5xl mx-auto bg-white  rounded-lg p-6 md:p-10 flex flex-col md:flex-row gap-8">
+    <section className="bg-white py-12 container mx-auto">
+      <div className=" bg-white  rounded-lg p-6 md:p-10 flex flex-col md:flex-row gap-8">
         {/* Left Info as Cards */}
         <div className="w-full md:w-1/3 space-y-4 p-6 shadow-md">
           {/* Card 1 - Address */}

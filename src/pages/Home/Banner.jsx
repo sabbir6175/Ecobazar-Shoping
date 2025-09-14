@@ -52,7 +52,7 @@ const Banner = () => {
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
-        className="h-full"
+        className="h-full container mx-auto"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>

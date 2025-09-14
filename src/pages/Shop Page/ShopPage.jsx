@@ -79,8 +79,8 @@ export default function ShopPage() {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-50 p-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-6">
+      <div className="container mx-auto min-h-screen bg-gray-50 p-6">
+        <div className="  grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-6">
           <Sidebar
             products={products}
             filters={filters}

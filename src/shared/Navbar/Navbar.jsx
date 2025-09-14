@@ -33,7 +33,8 @@ const Navbar = () => {
         <TopBar />
       </header>
 
-      {/* ==== Mobile & Tablet Navbar ==== */}
+     <div>
+       {/* ==== Mobile & Tablet Navbar ==== */}
       <div className="navbar bg-white shadow-sm px-4 py-2 lg:hidden flex justify-between items-center">
         {/* Logo Center */}
         <div className="flex-1 flex  ">
@@ -121,6 +122,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+     </div>
     </>
   );
 };
