@@ -14,6 +14,8 @@ import ProductDetails from "../pages/Shop Page/ProductDetails";
 import ShopPage from "../pages/Shop Page/ShopPage";
 import Dashboard from "../Layout/Dashboard";
 import UserDashboard from "../pages/Dashboard/UserDashboard/UserDashboard";
+import OrderHistory from "../pages/Dashboard/UserDashboard/OderHistory";
+import OrderDetails from "../pages/Dashboard/UserDashboard/OrderDetails";
 
 const router = createBrowserRouter([
   {
@@ -76,6 +78,14 @@ const router = createBrowserRouter([
           {
             path: "/Dashboard",
             element: <UserDashboard></UserDashboard>,
+          },
+          {
+            path: "/order-history",
+            element: <OrderHistory></OrderHistory>
+          },
+          {
+            path: "/order-details",
+            element: <OrderDetails></OrderDetails>
           },
         ],
       },
