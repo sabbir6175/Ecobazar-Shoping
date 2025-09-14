@@ -1,6 +1,5 @@
 import { FaFacebookF, FaTwitter, FaPinterest,  } from "react-icons/fa";
 import { IoMdCloseCircle } from "react-icons/io";
-import NewsletterSubscribe from "../../Components/NewsletterSubscribe ";
 
 const Wishlist = ()=> {
   return (
@@ -111,7 +110,6 @@ const Wishlist = ()=> {
         </button>
       </div>
     </div>
-    <NewsletterSubscribe></NewsletterSubscribe>
     </>
   );
 }

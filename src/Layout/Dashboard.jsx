@@ -32,7 +32,7 @@ const Dashboard = () => {
                 }
               >
                 <AiOutlineDashboard className="h-5 w-5" />
-                <span className="text-xs mt-1">Dashboard</span>
+                <span className="text-xs md:text-base mt-1">Dashboard</span>
               </NavLink>
             </li>
             <li>
@@ -45,7 +45,7 @@ const Dashboard = () => {
                 }
               >
                 <AiOutlineShoppingCart className="h-5 w-5" />
-                <span className="text-xs mt-1">Order History</span>
+                <span className="text-xs  md:text-base mt-1">Order History</span>
               </NavLink>
             </li>
             <li>
@@ -58,12 +58,12 @@ const Dashboard = () => {
                 }
               >
                 <AiOutlineHeart className="h-5 w-5" />
-                <span className="text-xs mt-1">Wishlist</span>
+                <span className="text-xs md:text-base mt-1">Wishlist</span>
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/shopping-cart"
+                to="/shoppingCart"
                 className={({ isActive }) =>
                   `flex flex-col md:flex-row lg:gap-3 items-center p-2 rounded-box ${
                     isActive ? "bg-[#E5F5E5] text-[#48BB78] font-semibold" : ""
@@ -71,7 +71,7 @@ const Dashboard = () => {
                 }
               >
                 <AiOutlineShoppingCart className="h-5 w-5" />
-                <span className="text-xs mt-1">Shopping Cart</span>
+                <span className="text-xs md:text-base mt-1">Shopping Cart</span>
               </NavLink>
             </li>
             <li>
@@ -84,7 +84,7 @@ const Dashboard = () => {
                 }
               >
                 <AiOutlineSetting className="h-5 w-5" />
-                <span className="text-xs mt-1">Settings</span>
+                <span className="text-xs md:text-base mt-1">Settings</span>
               </NavLink>
             </li>
             {/* Log-out অপশনটি শুধু বড় স্ক্রিনে দেখাবে */}
@@ -94,7 +94,7 @@ const Dashboard = () => {
                 className="flex flex-col md:flex-row lg:gap-3 items-center p-2 rounded-box text-gray-500 hover:text-gray-700"
               >
                 <AiOutlineLogout className="h-5 w-5" />
-                <span className="text-xs mt-1">Log-out</span>
+                <span className="text-xs md:text-base mt-1">Log-out</span>
               </a>
             </li>
           </ul>

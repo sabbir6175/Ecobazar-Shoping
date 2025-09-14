@@ -16,6 +16,7 @@ import Dashboard from "../Layout/Dashboard";
 import UserDashboard from "../pages/Dashboard/UserDashboard/UserDashboard";
 import OrderHistory from "../pages/Dashboard/UserDashboard/OderHistory";
 import OrderDetails from "../pages/Dashboard/UserDashboard/OrderDetails";
+import Settings from "../pages/Dashboard/UserDashboard/Settings";
 
 const router = createBrowserRouter([
   {
@@ -51,18 +52,6 @@ const router = createBrowserRouter([
         element: <Contact></Contact>,
       },
       {
-        path: "/wishlist",
-        element: <Wishlist></Wishlist>,
-      },
-      {
-        path: "/shoppingCart",
-        element: <ShoppingCart></ShoppingCart>,
-      },
-      {
-        path: "/checkout",
-        element: <Checkout></Checkout>,
-      },
-      {
         path: "/signIn",
         element: <SignIn></SignIn>,
       },
@@ -81,11 +70,27 @@ const router = createBrowserRouter([
           },
           {
             path: "/order-history",
-            element: <OrderHistory></OrderHistory>
+            element: <OrderHistory></OrderHistory>,
           },
           {
             path: "/order-details",
-            element: <OrderDetails></OrderDetails>
+            element: <OrderDetails></OrderDetails>,
+          },
+          {
+            path: "/settings",
+            element: <Settings></Settings>,
+          },
+          {
+            path: "/wishlist",
+            element: <Wishlist></Wishlist>,
+          },
+          {
+            path: "/shoppingCart",
+            element: <ShoppingCart></ShoppingCart>,
+          },
+          {
+            path: "/checkout",
+            element: <Checkout></Checkout>,
           },
         ],
       },
