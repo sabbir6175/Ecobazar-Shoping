@@ -64,11 +64,7 @@ const TopCategories = () => {
           {categories.map((category) => (
             <SwiperSlide key={category.id}>
               <div
-                className={`p-4 border rounded-lg text-center transition ${
-                  category.isActive
-                    ? "border-green-500 bg-green-50"
-                    : "border-gray-200 bg-white"
-                }`}
+                className={`relative shadow rounded-lg p-4 bg-white transition hover:shadow-2xl `}
               >
                 <div className="flex justify-center mb-2">
                   <img

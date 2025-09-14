@@ -33,9 +33,9 @@ const Navbar = () => {
         <TopBar />
       </header>
 
-     <div>
+     <div className="container mx-auto">
        {/* ==== Mobile & Tablet Navbar ==== */}
-      <div className="navbar bg-white shadow-sm px-4 py-2 lg:hidden flex justify-between items-center">
+      <div className="navbar bg-white  px-4 py-2 lg:hidden flex justify-between items-center">
         {/* Logo Center */}
         <div className="flex-1 flex  ">
           <Link
@@ -86,7 +86,7 @@ const Navbar = () => {
       </div>
 
       {/* ==== Desktop Navbar Layout ==== */}
-      <div className="hidden lg:flex justify-between items-center bg-white shadow-sm px-6 py-3">
+      <div className="hidden lg:flex justify-between items-center bg-white   py-3">
         {/* Left: Navigation Menu */}
         <ul className="menu menu-horizontal space-x-4 text-gray-700">{link}</ul>
 

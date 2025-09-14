@@ -3,15 +3,15 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <footer className="bg-white py-8 px-6 max-w-7xl mx-auto">
-      <div className="flex flex-col md:flex-col space-y-4 md:items-center justify-between gap-6">
+    <footer className="bg-white py-8 px-4 md:px-0 max-w-6xl mx-auto ">
+      {/* <div className="flex flex-col md:flex-col space-y-4 md:items-center justify-between gap-6"> */}
         {/* Logos section */}
-        
+
 
         {/* Contact and newsletter */}
-        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 mt-6 md:mt-0">
+        <div className="flex flex-col md:flex-row justify-between md:space-x-6 space-y-6 md:space-y-0 mt-6 md:mt-0 w-full">
           {/* Location */}
-          <div className="border border-green-200 rounded p-4 flex flex-col  items-left gap-4 max-w-xs">
+          <div className="border md:w-1/3 border-green-200 rounded p-4 flex flex-col  items-left gap-4 max-w-xs">
             <FaMapMarkerAlt className="text-green-400 bg-green-200 rounded-full w-8 h-8 p-2  text-xl mt-1" />
             
             <div className="text-left">
@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
 
           {/* Call us */}
-          <div className="border border-green-200 rounded p-4 flex flex-col  items-left gap-4 max-w-xs">
+          <div className="border   md:w-1/3 border-green-200 rounded p-4 flex flex-col  items-left gap-4 max-w-xs">
             <FaPhone className="text-green-400 bg-green-200 rounded-full w-8 h-8 p-2  text-xl mt-1" />
             <div>
               <p className="uppercase text-xs font-bold text-gray-700 mb-1">Call us 24/7</p>
@@ -32,7 +32,7 @@ const Contact = () => {
           </div>
 
           {/* Subscribe newsletter */}
-          <div className="border border-green-200 rounded p-4 flex flex-col  items-left max-w-xs w-full">
+          <div className="border  md:w-1/3 border-green-200 rounded p-4 flex flex-col  items-left max-w-xs ">
             <div className="flex items-left flex-col gap-4 mb-2">
               <FaEnvelope className="text-green-400 bg-green-200 rounded-full w-8 h-8 p-2  text-xl mt-1" />
               <p className="uppercase text-xs font-bold text-gray-700 mb-0">Subscribe Newsletter</p>
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </footer>
   );
 };
