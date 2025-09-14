@@ -61,7 +61,7 @@ const FeatureProduct = () => {
         {products.map((product) => (
           <div
             key={product.id}
-            className={`relative  rounded-lg p-4 bg-white transition hover:shadow-md `}
+            className={`relative shadow  rounded-lg p-4 bg-white transition hover:shadow-md `}
           >
             {/* Sale badge */}
             {product.isOnSale && (

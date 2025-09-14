@@ -4,26 +4,28 @@ import { IoIosArrowDown } from "react-icons/io"; // For the dropdown arrow icon
 
 const TopBar = () => {
   return (
-    <div className="bg[#EDF2EE] py-2 px-6">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center">
-        {/* Store Location */}
-        <div className="flex items-center space-x-2 text-gray-700">
-          <FaMapMarkerAlt className="text-lg text-green-500" />
-          <span className="text-sm">
-            Store Location: Lincoln - 344, Illinois, Chicago, USA
-          </span>
-        </div>
-
-        {/* Language Dropdown */}
-
-        {/* Currency Dropdown */}
-        <div className="flex items-center space-x-4 text-gray-700">
-          <div className="flex items-center space-x-4 text-gray-700">
-            <span className="text-sm">Eng</span>
-            <IoIosArrowDown className="text-sm" />
+    <div className="bg-green-100">
+      <div className="container mx-auto block  py-2 px-2 md:px-6">
+        <div className=" flex justify-between items-center gap-3">
+          {/* Store Location */}
+          <div className="flex  items-center space-x-2 text-gray-700">
+            <FaMapMarkerAlt className="text-base md:text-lg text-green-500" />
+            <span className="text-xs md:text-sm">
+              Store Location: Lincoln - 344, Illinois, Chicago, USA
+            </span>
           </div>
-          <span className="text-sm">USD</span>
-          <IoIosArrowDown className="text-sm" />
+
+          {/* Language Dropdown */}
+
+          {/* Currency Dropdown */}
+          <div className="flex items-center space-x-4 text-gray-700">
+            <div className="flex items-center space-x-4 text-gray-700">
+              <span className="text-xs md:text-sm">Eng</span>
+              <IoIosArrowDown className="text-xs md:text-sm" />
+            </div>
+            <span className="text-xs md:text-sm">USD</span>
+            <IoIosArrowDown className="text-xs md:text-sm" />
+          </div>
         </div>
       </div>
     </div>

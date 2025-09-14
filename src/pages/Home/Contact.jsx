@@ -43,7 +43,7 @@ const Contact = () => {
                 placeholder="Your email address"
                 className="flex-grow border border-green-300 rounded px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-green-500"
               />
-              <button className="bg-green-600 text-white text-xs px-4 rounded hover:bg-green-700 transition">
+              <button className="bg-green-600 text-white text-xs px-4 overflow-hidden rounded hover:bg-green-700 transition">
                 Subscribe
               </button>
             </div>

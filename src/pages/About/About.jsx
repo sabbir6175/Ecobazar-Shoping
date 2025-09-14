@@ -11,9 +11,7 @@ const About = () => {
     <>
       <div className="container mx-auto">
         <HeroSection></HeroSection>
-      </div>
-      <FeaturesSection></FeaturesSection>
-      <div  className="container mx-auto">
+        <FeaturesSection></FeaturesSection>
         <DeliverySection></DeliverySection>
         <TeamMate></TeamMate>
         <ClientTestimonial></ClientTestimonial>
