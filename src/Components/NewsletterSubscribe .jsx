@@ -8,7 +8,7 @@ import {
 
 const NewsletterSubscribe = () => {
   return (
-    <section className=" py-10 px-5 md:px-20 ">
+    <section className=" container mx-auto py-10 px-5 md:px-20 ">
       <div className=" flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left side: Title and subtitle */}
         <div className="flex flex-col text-left max-w-md">

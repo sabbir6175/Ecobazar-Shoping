@@ -12,6 +12,8 @@ import Checkout from "../pages/CheckOut/CheckOut";
 import SingleBlog from "../pages/Blog page/SingleBlog";
 import ProductDetails from "../pages/Shop Page/ProductDetails";
 import ShopPage from "../pages/Shop Page/ShopPage";
+import Dashboard from "../Layout/Dashboard";
+import UserDashboard from "../pages/Dashboard/UserDashboard/UserDashboard";
 
 const router = createBrowserRouter([
   {
@@ -26,8 +28,8 @@ const router = createBrowserRouter([
         path: "/shop",
         element: <ShopPage></ShopPage>,
       },
-       {
-        path: "/productDetails", 
+      {
+        path: "/productDetails",
         element: <ProductDetails />,
       },
       {
@@ -65,6 +67,17 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      // Dashboard route
+      {
+        path: "/",
+        element: <Dashboard></Dashboard>,
+        children: [
+          {
+            path: "/Dashboard",
+            element: <UserDashboard></UserDashboard>,
+          },
+        ],
       },
     ],
   },

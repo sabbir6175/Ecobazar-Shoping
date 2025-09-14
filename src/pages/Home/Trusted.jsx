@@ -12,12 +12,12 @@ const Trusted = () => {
         <img
           src={Man2}
           alt="Farmer 1"
-          className="md:w-1/2  h-96 object-cover rounded-lg"
+          className="md:w-1/2  h-80  object-cover rounded-lg"
         />
         <img
           src={Man1}
           alt="Farmer 2"
-          className="md:w-1/2 h-full object-cover rounded-lg"
+          className="md:w-1/2 h-full lg:h-96 object-cover rounded-lg"
         />
       </div>
 
