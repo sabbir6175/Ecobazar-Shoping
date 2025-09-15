@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import Sidebar from "./Sidebar";
 import ProductGrid from "./ProductGrid";
 import NewsletterSubscribe from "../../Components/NewsletterSubscribe ";
+import { Helmet } from "react-helmet-async";
 
 export default function ShopPage() {
   const [products, setProducts] = useState([]);
@@ -79,7 +80,10 @@ export default function ShopPage() {
 
   return (
     <>
-      <div className="container mx-auto min-h-screen bg-gray-50 p-6">
+      <Helmet>
+        <title>EcoBazar Shopping | Shopping </title>
+      </Helmet>
+      <div className="container mx-auto min-h-screen  p-6">
         <div className="  grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-6">
           <Sidebar
             products={products}

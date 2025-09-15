@@ -9,8 +9,8 @@ const stats = [
 
 const Review = () => {
   return (
-    <section className="bg-[#0d1b10] py-12 px-4 md:px-16 text-white relative">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+    <section className="bg-[#0d1b10] py-12 px-4  text-white relative">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 container mx-auto">
         {stats.map((item) => (
           <div
             key={item.id}

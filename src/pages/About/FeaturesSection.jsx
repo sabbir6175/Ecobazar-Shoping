@@ -15,10 +15,10 @@ import farmer4 from "../../assets/about/Image (7).png";
 
 const FeaturesSection = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-10 items-center   py-10 ">
+    <div className="grid md:grid-cols-2 gap-10 items-center px-2   py-10 ">
       
       {/* Left Image Area */}
-      <div className="relative w-full h-full flex items-center border justify-center">
+      <div className="relative w-full h-full flex items-center justify-center">
         
         {/* Background Image */}
         <img
@@ -38,7 +38,7 @@ const FeaturesSection = () => {
 
       {/* Right Text Area */}
       <div>
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="text-3xl  font-bold mb-4">
           100% Trusted <br />
           <span className="text-green-600">Organic Food Store</span>
         </h2>

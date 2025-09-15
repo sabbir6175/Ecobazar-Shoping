@@ -6,7 +6,7 @@ import Image2 from "../../assets/TopCategories/Image1.png";
 
 const CardSection = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto p-6">
+    <div className="flex flex-col md:flex-row gap-6  px-4 md:px-0 py-12">
       {/* Card 1 */}
       <div
         className="relative w-full md:w-1/2 rounded-lg overflow-hidden bg-gray-900 text-white h-64 md:h-80"

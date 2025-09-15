@@ -6,28 +6,9 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const DeliverySection = () => {
   return (
-    // <div className="grid md:grid-cols-2 gap-10 items-center px-5 md:px-20 py-16 bg-base-200">
-    //   <div>
-    //     <h2 className="text-3xl font-bold mb-4">
-    //       We Delivered, You <br />{" "}
-    //       <span className="text-green-600">Enjoy Your Order.</span>
-    //     </h2>
-    //     <p className="text-gray-600 mb-6">
-    //       Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices
-    //       consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac
-    //       mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget
-    //       elementum.
-    //     </p>
-    //     <Link to={"#"} className="pointer-coarse">
-    //       <button className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition duration-300">
-    //         Shop Now →
-    //       </button>
-    //     </Link>
-    //   </div>
-    //   <img src={deliveryGuy} alt="Delivery" className="rounded-lg shadow-md" />
-    // </div>
+   
 
-    <div className="grid md:grid-cols-2 gap-10 items-center px-5 md:px-20 py-10">
+    <div className="grid md:grid-cols-2 gap-10 items-center px-4 py-10">
       <div className="md:px-10 ">
         <h2 className="text-3xl font-bold mb-4">
           We Delivered, You <br />{" "}

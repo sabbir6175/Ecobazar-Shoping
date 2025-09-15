@@ -8,10 +8,14 @@ import {
   AiOutlineLogout,
 } from "react-icons/ai";
 import NewsletterSubscribe from "../Components/NewsletterSubscribe ";
+import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
   return (
     <>
+      <Helmet>
+        <title>EcoBazar Shopping | Dashboard </title>
+      </Helmet>
       <div className="container mx-auto flex flex-col lg:flex-row   p-4 lg:p-8">
         {/* বাম পাশের নেভিগেশন সাইডবার */}
         {/* ছোট স্ক্রিনে মেনুবারটি অনুভূমিকভাবে (horizontally) দেখাবে */}
@@ -45,7 +49,9 @@ const Dashboard = () => {
                 }
               >
                 <AiOutlineShoppingCart className="h-5 w-5" />
-                <span className="text-xs  md:text-base mt-1">Order History</span>
+                <span className="text-xs  md:text-base mt-1">
+                  Order History
+                </span>
               </NavLink>
             </li>
             <li>
@@ -91,7 +97,7 @@ const Dashboard = () => {
             <li className="mt-8 hidden lg:block">
               <a
                 href="#"
-                className="flex flex-col md:flex-row lg:gap-3 items-center p-2 rounded-box text-gray-500 hover:text-gray-700"
+                className="flex flex-col md:flex-row lg:gap-3 items-center p-2 rounded-box "
               >
                 <AiOutlineLogout className="h-5 w-5" />
                 <span className="text-xs md:text-base mt-1">Log-out</span>

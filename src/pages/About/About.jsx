@@ -5,13 +5,18 @@ import DeliverySection from "./DeliverySection";
 import TeamMate from "./TeamMate";
 import ClientTestimonial from "./ClientTestimonial";
 import NewsletterSubscribe from "../../Components/NewsletterSubscribe ";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>EcoBazar Shopping | About </title>
+      </Helmet>
+
+      <HeroSection></HeroSection>
+      <FeaturesSection></FeaturesSection>
       <div className="container mx-auto">
-        <HeroSection></HeroSection>
-        <FeaturesSection></FeaturesSection>
         <DeliverySection></DeliverySection>
         <TeamMate></TeamMate>
         <ClientTestimonial></ClientTestimonial>

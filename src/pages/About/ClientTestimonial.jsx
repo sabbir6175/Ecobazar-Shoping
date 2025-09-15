@@ -6,9 +6,9 @@ import CodyFisher from '../../assets/about/Cody Fisher.png'
 
 const ClientTestimonial = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 bg-gradient-to-b from-white to-gray-50 relative">
+    <section className=" px-4 bg-gradient-to-b from-white to-gray-50 relative">
       {/* Title */}
-      <div className="flex justify-between items-center max-w-5xl mx-auto mb-10">
+      <div className="flex justify-between items-center mb-10">
         <div>
           <h1 className="text-3xl font-bold">Client Testimonail</h1>
         </div>
@@ -24,9 +24,9 @@ const ClientTestimonial = () => {
       </div>
 
       {/* Cards container */}
-      <div className="flex flex-col md:flex-row gap-8 max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-8 ">
         {/* Card 1 */}
-        <div className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between flex-1 relative">
+        <div className="bg-white transition hover:shadow-md rounded-lg shadow p-6 flex flex-col justify-between flex-1 relative">
           <FaQuoteLeft className="text-green-400 text-3xl top-6 left-6 " />
           <p className="text-gray-600 mb-10 mt-4 leading-relaxed text-sm">
             Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
@@ -54,7 +54,7 @@ const ClientTestimonial = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between flex-1 relative">
+        <div className="bg-white transition hover:shadow-md rounded-lg shadow p-6 flex flex-col justify-between flex-1 relative">
           <FaQuoteLeft className="text-green-400 text-3xl  top-6 left-6" />
           <p className="text-gray-600 mb-10 mt-4 leading-relaxed text-sm">
             Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
@@ -82,7 +82,7 @@ const ClientTestimonial = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between flex-1 relative">
+        <div className="bg-white transition hover:shadow-md rounded-lg shadow p-6 flex flex-col justify-between flex-1 relative">
           <FaQuoteLeft className="text-green-400 text-3xl  top-6 left-6" />
           <p className="text-gray-600 mb-10 mt-4 leading-relaxed text-sm">
             Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.

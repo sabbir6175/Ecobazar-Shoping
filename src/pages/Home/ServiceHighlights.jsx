@@ -29,8 +29,8 @@ const ServiceHighlights = () => {
 
         {/* Card 3 - Secure Payment (Always Highlighted) */}
         <div className="flex flex-col items-center gap-3 group cursor-default">
-          <div className="w-16 h-16 rounded-full flex items-center justify-center bg-green-600 transition-colors duration-300">
-            <FaLock className="text-3xl text-white" />
+          <div className="w-16 h-16 rounded-full flex items-center justify-center bg-green-100  group-hover:bg-green-600 transition-colors duration-300">
+            <FaLock className="text-3xl text-green-500 group-hover:text-white transition-colors duration-300" />
           </div>
           <h4 className="text-md font-semibold">100% Secure Payment</h4>
           <p className="text-sm text-gray-500">We ensure your money is safe</p>

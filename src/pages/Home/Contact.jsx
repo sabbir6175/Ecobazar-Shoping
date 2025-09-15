@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <footer className="bg-white py-8 px-4 md:px-0 max-w-6xl mx-auto ">
+    <footer className="bg-white py-8 px-4 lg:px-0  ">
       {/* <div className="flex flex-col md:flex-col space-y-4 md:items-center justify-between gap-6"> */}
         {/* Logos section */}
 

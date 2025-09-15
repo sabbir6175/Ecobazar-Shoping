@@ -3,12 +3,12 @@ import NewsletterSubscribe from "../../Components/NewsletterSubscribe ";
 const Checkout = () => {
   return (
     <>
-      <div className="container mx-auto p-6">
+      <div className=" md:p-6">
         {/* Checkout Section */}
         <div className="flex flex-col md:flex-row space-x-6 mb-6">
           {/* Left Column: Billing Information */}
-          <div className="flex-1 bg-white shadow-md rounded-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4">Billing Information</h2>
+          <div className="flex-1  shadow rounded-lg p-6">
+            <h2 className="text-xl font-semibold mb-4">Billing Information</h2>
             <form>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                 <input
@@ -65,7 +65,7 @@ const Checkout = () => {
                 <label className="text-sm">Ship to a different address</label>
               </div>
 
-              <h2 className="text-2xl font-semibold mb-4">Additional Info</h2>
+              <h2 className="text-xl font-semibold mb-4">Additional Info</h2>
               <textarea
                 placeholder="Notes about your order, e.g. special notes for delivery"
                 className="border border-gray-300 p-3 rounded-md w-full"
@@ -74,8 +74,8 @@ const Checkout = () => {
           </div>
 
           {/* Right Column: Order Summary */}
-          <div className="flex-none w-full md:w-80 bg-white shadow-lg rounded-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4 text-center border-b pb-4">
+          <div className="flex-none w-full md:w-80  shadow rounded-lg p-6">
+            <h2 className="text-xl font-semibold mb-4 text-center border-b pb-4">
               Order Summary
             </h2>
             <div className="space-y-4">
@@ -85,11 +85,11 @@ const Checkout = () => {
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdydFa5ih7abmQun15DGRvmIBy5jSLbkmmg&s"
                     alt="Green Capsicum"
-                    className="w-12 h-12 object-cover rounded-md"
+                    className="w-8 h-8 object-cover rounded-md"
                   />
                   <span className="font-medium">Green Capsicum x</span>
                 </div>
-                <span className="font-semibold text-lg">$26</span>
+                <span className="font-semibold text-base">$26</span>
               </div>
 
               {/* Red Capsicum Row */}
@@ -98,28 +98,28 @@ const Checkout = () => {
                   <img
                     src="https://recipe30.com/wp-content/uploads/2021/08/Asian-stirfried-vegetables-848x477.jpg"
                     alt="Red Capsicum"
-                    className="w-12 h-12 object-cover rounded-md"
+                    className="w-8 h-8 object-cover rounded-md"
                   />
                   <span className="font-medium">Red Capsicum x</span>
                 </div>
-                <span className="font-semibold text-lg">$43</span>
+                <span className="font-semibold text-base">$43</span>
               </div>
 
               {/* Subtotal */}
               <div className="flex justify-between items-center border-b pb-2 mt-4">
-                <span className="text-lg font-semibold">Subtotal:</span>
-                <span className="text-lg font-semibold">$45</span>
+                <span className="text-lg font-normal">Subtotal:</span>
+                <span className="text-lg font-normal">$45</span>
               </div>
 
               {/* Shipping */}
               <div className="flex justify-between items-center border-b pb-2">
-                <span className="text-lg font-semibold">Shipping:</span>
-                <span className="text-lg font-semibold">34</span>
+                <span className="text-lg font-normal">Shipping:</span>
+                <span className="text-lg font-normal">34</span>
               </div>
 
               {/* Total */}
               <div className="flex justify-between items-center mt-4">
-                <span className="text-xl font-semibold">Total:</span>
+                <span className="text-xl font-normal">Total:</span>
                 <span className="text-xl font-semibold text-green-500">
                   $234
                 </span>

@@ -4,9 +4,9 @@ import farmer1 from "../../assets/about/Image (6).png"; // Use your images accor
 
 const HeroSection = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-10 items-center px-5 md:px-20 py-10">
-      <div className="px-10 ">
-        <h1 className="text-4xl font-bold mb-8">
+    <div className="grid md:grid-cols-2 container mx-auto gap-10 items-center px-4  py-10">
+      <div className="md:px-10 ">
+        <h1 className=" text-3xl  font-bold mb-8">
           100% Trusted
           <br /> <span className="text-green-600">Organic Food Store</span>
         </h1>

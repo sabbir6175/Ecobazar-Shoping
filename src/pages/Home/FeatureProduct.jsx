@@ -44,7 +44,7 @@ const products = [
 
 const FeatureProduct = () => {
   return (
-    <div className="py-12 px-4 md:px-16">
+    <div className="py-12 px-4 lg:px-0">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-semibold">Featured Products</h2>

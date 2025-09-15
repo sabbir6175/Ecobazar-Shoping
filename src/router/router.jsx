@@ -6,7 +6,6 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import SignIn from "../pages/Login/SignIn";
 import Register from "../pages/Login/Register";
-import Wishlist from "../pages/WishList.jsx/WishList";
 import ShoppingCart from "../pages/ShoppingCart/ShoppingCart";
 import Checkout from "../pages/CheckOut/CheckOut";
 import SingleBlog from "../pages/Blog page/SingleBlog";
@@ -17,6 +16,7 @@ import UserDashboard from "../pages/Dashboard/UserDashboard/UserDashboard";
 import OrderHistory from "../pages/Dashboard/UserDashboard/OderHistory";
 import OrderDetails from "../pages/Dashboard/UserDashboard/OrderDetails";
 import Settings from "../pages/Dashboard/UserDashboard/Settings";
+import Wishlist from "../pages/WishList.jsx/Wishlist";
 
 const router = createBrowserRouter([
   {

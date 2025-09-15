@@ -6,26 +6,26 @@ const ContactFrom = () => {
     <section className="bg-white py-12 container mx-auto">
       <div className=" bg-white  rounded-lg p-6 md:p-10 flex flex-col md:flex-row gap-8">
         {/* Left Info as Cards */}
-        <div className="w-full md:w-1/3 space-y-4 p-6 shadow-md">
+        <div className="w-full md:w-1/3 space-y-4 p-6 shadow">
           {/* Card 1 - Address */}
-          <div className="bg-gray-50 p-4 rounded-lg shadow flex flex-col gap-3  items-center space-x-4">
+          <div className=" p-4 rounded-lg  flex flex-col gap-3  items-center space-x-4">
             <FaMapMarkerAlt className="text-green-600 mt-1" />
             <p className="text-sm text-center text-gray-700">
               2716 Ash Dr. San Jose, South Dakota 83475
             </p>
           </div>
-
+          <div className="divider"></div>
           {/* Card 2 - Email */}
-          <div className="bg-gray-50 p-4 rounded-lg shadow flex flex-col gap-3  items-center space-x-4">
+          <div className=" p-4 rounded-lg  flex flex-col gap-3  items-center space-x-4">
             <FaEnvelope className="text-green-600 mt-1" />
             <div className="text-sm text-center text-gray-700">
               <p>Proxy@gmail.com</p>
               <p>help.proxy@gmail.com</p>
             </div>
           </div>
-
+          <div className="divider"></div>
           {/* Card 3 - Phone */}
-          <div className="bg-gray-50 p-4 rounded-lg shadow flex flex-col gap-3  items-center space-x-4">
+          <div className=" p-4 rounded-lg  flex flex-col gap-3  items-center space-x-4">
             <FaPhoneAlt className="text-green-600 mt-1" />
             <div className="text-sm text-center text-gray-700">
               <p>(210) 555-0114</p>
@@ -35,7 +35,7 @@ const ContactFrom = () => {
         </div>
 
         {/* Right Form */}
-        <div className="w-full md:w-2/3 space-y-4 shadow-md p-6">
+        <div className="w-full shadow md:w-2/3 space-y-4  p-6">
           <h3 className="text-lg font-bold">Just Say Hello!</h3>
           <p className="text-sm text-gray-600 mb-4">
             Do you fancy reaching me to hire or you want to get started with

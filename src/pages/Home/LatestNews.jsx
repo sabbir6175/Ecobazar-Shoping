@@ -1,13 +1,14 @@
 import React from "react";
-import { FaRegHeart, FaUser, FaComments, FaArrowRight } from "react-icons/fa";
+import { FaRegHeart, FaUser, FaComments, FaArrowRight, FaTag } from "react-icons/fa";
 
 import Image1 from '../../assets/TopCategories/Image (2).png'
 import Image2 from '../../assets/TopCategories/Image (3).png'
 import Image3 from '../../assets/TopCategories/Image (4).png'
+import { Link } from "react-router-dom";
 
 const LatestNews = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <section className=" px-4  py-12">
       <div className="text-center mb-10">
         <p className="text-green-500 uppercase text-sm tracking-widest mb-2">Blog</p>
         <h2 className="text-3xl font-bold">Latest News</h2>
@@ -27,8 +28,8 @@ const LatestNews = () => {
           </div>
           <div className="p-4 flex flex-col flex-grow">
             <div className="flex gap-4 text-xs text-gray-400 mb-2">
-              <span className="flex items-center gap-1">
-                <FaRegHeart /> Food
+              <span className="flex items-center  gap-1">
+                <FaTag /> Food
               </span>
               <span className="flex items-center gap-1">
                 <FaUser /> By Admin
@@ -40,12 +41,13 @@ const LatestNews = () => {
             <h3 className="text-sm font-semibold mb-3">
               Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.
             </h3>
-            <a
+            <Link
+            to={'/Blog'}
               href="#"
               className="text-green-600 font-semibold flex items-center gap-1 hover:underline mt-auto"
             >
               Read More <FaArrowRight />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -76,12 +78,13 @@ const LatestNews = () => {
             <h3 className="text-sm font-semibold mb-3">
               Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.
             </h3>
-            <a
+            <Link
+            to={'/Blog'}
               href="#"
               className="text-green-600 font-semibold flex items-center gap-1 hover:underline mt-auto"
             >
               Read More <FaArrowRight />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -112,12 +115,13 @@ const LatestNews = () => {
             <h3 className="text-sm font-semibold mb-3">
               Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.
             </h3>
-            <a
+            <Link
+            to={'/Blog'}
               href="#"
               className="text-green-600 font-semibold flex items-center gap-1 hover:underline mt-auto"
             >
               Read More <FaArrowRight />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

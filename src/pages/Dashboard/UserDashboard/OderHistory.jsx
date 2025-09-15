@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { AiOutlineEye, AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 const OrderHistory = () => {
@@ -79,6 +80,9 @@ const OrderHistory = () => {
 
   return (
     <>
+      <Helmet>
+        <title>EcoBazar Shopping | OrderHistory </title>
+      </Helmet>
       <div className=" rounded-lg shadow p-6 w-full">
         <h2 className="text-xl font-bold mb-6">Order History</h2>
 
@@ -107,11 +111,11 @@ const OrderHistory = () => {
                   <td className="p-4 text-sm">{order.status}</td>
                   <td className="p-4">
                     <Link
-                    to={'/order-details'}
+                      to={"/order-details"}
                       href="#"
                       className="text-green-500 flex items-center gap-1 text-sm font-semibold"
                     >
-                     <AiOutlineEye className="h-4 w-4 " /> View Details
+                      <AiOutlineEye className="h-4 w-4 " /> View Details
                     </Link>
                   </td>
                 </tr>
@@ -146,7 +150,6 @@ const OrderHistory = () => {
           </button>
         </div>
       </div>
-     
     </>
   );
 };

@@ -15,7 +15,7 @@ const ProductCart = ({ product }) => {
 
       {/* image container */}
       <div className="h-40 flex items-center justify-center mb-3">
-        <img src={product.image} alt={product.name} className="max-h-full object-contain" />
+        <img src={product.image} alt={product.name} className="w-full h-full rounded-sm object-cover" />
       </div>
 
       <h3 className="font-semibold text-gray-800">{product.name}</h3>
