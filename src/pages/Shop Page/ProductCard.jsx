@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ProductCart = ({ product }) => {
   return (
-    <div className="group relative   rounded-lg p-4 bg-white transition hover:shadow-md overflow-hidden">
+    <div className="group relative shadow rounded-lg p-4 bg-white transition hover:shadow-md overflow-hidden">
       {/* badges */}
       {product.status === "out-of-stock" && (
         <div className="absolute top-3 left-3 bg-gray-800 text-white text-xs px-2 py-1 rounded">Out of Stock</div>

@@ -100,7 +100,7 @@ export default function ShopPage() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-3">
+              <div className="flex flex-col md:flex-row items-center gap-3">
                 <input
                   type="search"
                   placeholder="Search products..."

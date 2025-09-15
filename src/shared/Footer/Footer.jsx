@@ -27,7 +27,7 @@ export default function Footer() {
             <img src={footerLogo} alt="Logo" className="h-8 w-8" />
             Ecobazar
           </h2>
-          <p className="text-sm leading-relaxed mb-6 px-10">
+          <p className="text-sm leading-relaxed mb-6  md:px-10">
             Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
             dui, eget bibendum magn.
           </p>
@@ -50,10 +50,10 @@ export default function Footer() {
         </div>
 
         {/* ==== Middle Section (3 columns) ==== */}
-        <div className="md:w-1/3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="w-full md:w-1/3  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {/* My Account */}
           <div>
-            <h3 className="text-white font-semibold mb-4 inline-block border-b-2 border-green-500 pb-1">
+            <h3 className="text-white font-semibold mb-4 inline-block border-b-2 text-left border-green-500 pb-1">
               My Account
             </h3>
             <ul className="space-y-2 text-sm">
@@ -78,11 +78,11 @@ export default function Footer() {
           </div>
 
           {/* Proxy */}
-          <div>
+          <div >
             <h3 className="text-white font-semibold mb-4 inline-block border-b-2 border-green-500 pb-1">
               Proxy
             </h3>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2  text-sm">
               <li><a href="#">About</a></li>
               <li><a href="#">Shop</a></li>
               <li><a href="#">Product</a></li>
@@ -92,8 +92,8 @@ export default function Footer() {
         </div>
 
         {/* ==== Right Section (App Download) ==== */}
-        <div className="md:w-1/3">
-          <h3 className="text-white font-semibold mb-4 inline-block border-b-2 border-green-500 pb-1">
+        <div className="w-full md:w-1/3 ">
+          <h3 className="text-white  font-semibold mb-4 inline-block border-b-2 border-green-500 pb-1">
             Download Mobile App
           </h3>
           <div className="flex flex-col sm:flex-row gap-2">
