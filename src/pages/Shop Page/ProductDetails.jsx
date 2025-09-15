@@ -102,6 +102,7 @@ const product = {
 };
 
 const ProductDetails = () => {
+  // eslint-disable-next-line no-unused-vars
   const { id } = useParams();
   const [activeTab, setActiveTab] = useState("description");
 
