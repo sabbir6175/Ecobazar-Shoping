@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "ecobazar-shopping"
-  }
+    "default": "ecobazar-shopping-409b7"
+  },
+  "targets": {},
+  "etags": {}
 }

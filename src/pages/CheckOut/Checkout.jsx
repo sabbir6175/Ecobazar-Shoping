@@ -158,7 +158,7 @@ const Checkout = () => {
           </div>
         </div>
       </div>
-      <NewsletterSubscribe></NewsletterSubscribe>
+     
     </>
   );
 };
